@@ -1,0 +1,36 @@
+# Ignore virtual environments
+venv/
+*.venv/
+env/
+ENV/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Docker specific files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Other common ignores
+.git/
+.gitignore
+*.log
